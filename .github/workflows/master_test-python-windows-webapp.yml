@@ -35,4 +35,4 @@ jobs:
         app-name: 'test-python-windows-webapp'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_a93e0875834c4031b15abf52d30c66c0 }}
-        package: '.\myapp.zip'
+        package: '.\app.zip'
